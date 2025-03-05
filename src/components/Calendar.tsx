@@ -235,6 +235,7 @@ const Calendar = () => {
         events={events}
         displayEventTime={false}
         eventClick={handleEventClick}
+        selectLongPressDelay={1}
       />
 
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
